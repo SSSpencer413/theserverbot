@@ -5,19 +5,37 @@
 h1   {color: white;}
 p    {color: #99aab5; font-family: arial;}
 body  {background-color: #2c2f33;}
-#topBar  {background-color: #7289da; display: block;
-    padding: 8px;}
+#navList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #7289da;
+}
+#verli {
+    float: left;
+}
+
+#verli a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
 #info {text-align: center;}
 #nameHead {text-align: center;}
 #image {margin-left: 45%;}
 </style>
 </head>
 <body>
-  <div id="topBar">
-    <a href="https://discordapp.com/">
+   <ul id = "navList"> 
+       <li id= "verli"><a href="https://discordapp.com/">
       <img class="Discord" alt="This is a Discord bot!" src="https://discordapp.com/assets/4f004ac9be168ac6ee18fc442a52ab53.svg" width="128px" height="10%">
-    </a>
-   </div>
+    </a></li>
+       <li id= "verli">About</li>
+       <li id= "verli">Commands</li>
+   </ul>
   <div id="desc">
     <a href="https://discordapp.com/oauth2/authorize?client_id=358350504129986570&amp;scope=bot&amp;permissions=2146958591">
       <img class="The Server Bot" id="image" alt="The Server Bot's avatar" src="https://images-ext-2.discordapp.net/external/Tu7UoDn_ZwXpVhANaGLhu8KYrpZ9jky35vP1-krS9Bc/%3Fsize%3D2048/https/cdn.discordapp.com/avatars/358350504129986570/e918b97703297a27727be5dd76dfd053.png?size=520" width="128px" height="128px" style="margin-top:80px;border-radius:50%;">
