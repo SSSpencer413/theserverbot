@@ -22,3 +22,8 @@ body  {background-color: #2a2d32;}
     text-decoration: none;
     font-family: arial;
 }
+#centeredobj {
+    position: absolute;
+    top: 50%;
+    text-align: center;
+}
