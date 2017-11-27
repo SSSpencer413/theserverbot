@@ -6,7 +6,9 @@ p    {color: #99aab5; font-family: arial;}
 body  {background-color: #2a2d32;}
 #navList {
     list-style-type: none;
-    margin: -0.8%;
+    margin-top: -0.8%;
+    margin-left: -.8%;
+    width: 101.45%;
     padding: 0;
     overflow: hidden;
     background-color: #7289da;
