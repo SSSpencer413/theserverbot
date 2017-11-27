@@ -13,6 +13,9 @@ body  {background-color: #2a2d32;}
 }
 #verli {
     float: left;
+    position: absolute;
+    top: 50%;
+    text-align: center;
 }
 #verli #a {
     display: block;
@@ -21,9 +24,4 @@ body  {background-color: #2a2d32;}
     padding: 14px 16px;
     text-decoration: none;
     font-family: arial;
-}
-#centeredobj {
-    position: absolute;
-    top: 50%;
-    text-align: center;
 }
