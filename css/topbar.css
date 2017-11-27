@@ -22,3 +22,6 @@ body  {background-color: #2a2d32;}
     text-decoration: none;
     font-family: arial;
 }
+::-webkit-scrollbar {
+    width: 5px;
+}
