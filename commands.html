@@ -21,10 +21,16 @@
    <div style = "text-align: center;">
        <h1>Commands</h1> 
          <p>This is the full list of commands! Using <b>s!commands</b>, you can see the prefix of the server with the commands!<p>
+      <button onclick="scrollTo("fun")">Fun</button>
    </div>
+   <script>
+      function scrollTo(ele) {
+          var elmnt = document.getElementsByClassName(ele)[0];
+          elmnt.scrollIntoView();
+      }
+   </script>
    
-   
-   <div id="cmdbar" style="border-color: #71368A;">
+   <div id="cmdbar" class="pvp" style="border-color: #71368A;">
       <h2 style = "text-align: center;">PVP Commands</h2>
       <p style = "text-align: center;">A list of commands that involve attacking other users.</p>
       <ul style="list-style-type:none">
@@ -38,7 +44,7 @@
          </li>
       </ul>
    </div>
-   <div id="cmdbar" style="border-color: #2ECC71;">
+   <div id="cmdbar" class="economy" style="border-color: #2ECC71;">
       <h2 style = "text-align: center;">Economy Commands</h2>
       <p style = "text-align: center;">A list of commands for the bot's economy.</p>
       <ul style="list-style-type:none">
@@ -57,7 +63,7 @@ Currency Type could be Credits or Cubes.</p>
          </li>
       </ul>
    </div>
-   <div id="cmdbar" style="border-color: #979C9F;">
+   <div id="cmdbar" class="misc" style="border-color: #979C9F;">
       <h2 style = "text-align: center;">Miscellaneous Commands</h2>
       <p style = "text-align: center;">Miscellaneous commands for various things! These commands will work with the default prefix in any server!</p>
       <ul style="list-style-type:none">
@@ -99,7 +105,7 @@ Currency Type could be Credits or Cubes.</p>
          </li>
       </ul>
    </div>
-   <div id="cmdbar" style="border-color: #FFFF00;">
+   <div id="cmdbar" class="fun" style="border-color: #FFFF00;">
       <h2 style = "text-align: center;">Fun Commands</h2>
       <p style = "text-align: center;">A list of fun, useless commands!</p>
       <ul style="list-style-type:none"> 
@@ -133,7 +139,7 @@ Currency Type could be Credits or Cubes.</p>
          </li>
       </ul>
    </div>
-   <div id="cmdbar" style="border-color: #E67E22;">
+   <div id="cmdbar" class="utility" style="border-color: #E67E22;">
       <h2 style = "text-align: center;">Utility Commands</h2>
       <p style = "text-align: center;">A list of commands for Discord utility.</p>
       <ul style="list-style-type:none"> 
@@ -147,7 +153,7 @@ Currency Type could be Credits or Cubes.</p>
          </li>
       </ul>
    </div>
-   <div id="cmdbar" style="border-color: #992D22;">
+   <div id="cmdbar" class="bot-manager" style="border-color: #992D22;">
       <h2 style = "text-align: center;">Bot Manager Commands</h2>
       <p style = "text-align: center;">A list of commands for whoever manages the bot.</p>
       <ul style="list-style-type:none"> 
