@@ -5,7 +5,7 @@
    <link rel="stylesheet" href="./css/topbar.css">
    <style>
       #cmdbar {background-color: #2e3136; width: 50%; margin-left: 25%; border-left: 5px solid; border-radius: 5px;}
-      p {font-size: 14px;}
+      #p {font-size: 14px;}
    </style>
 </head>
 <body>
@@ -16,12 +16,12 @@
        <li id= "verli"><a id= "a" href="./index">Home</a></li>
        <li id= "verli"><a id= "a" href="./index">Coming Soon!</a></li>
        <li id= "verli"><a id= "a" href="./commands">Commands</a></li>
-      <li style="float:right;" id= "verli"> <p style="color: white; font-size: 14px;">SSSpencer413</p></li>
+      <li style="float:right;" id= "verli"> <p style="color: white;">SSSpencer413</p></li>
    </ul>
    
    <div style = "text-align: center;">
        <h1>Commands</h1> 
-         <p>This is the full list of commands! Using <b>s!commands</b>, you can see the prefix of the server with the commands!<p>
+         <p id="p">This is the full list of commands! Using <b>s!commands</b>, you can see the prefix of the server with the commands!<p id="p">
    </div>
 
    
@@ -31,11 +31,11 @@
       <ul style="list-style-type:none">
          <li>
             <h4>duel <@User> <Bet></h4>
-            <p>Request a duel for a person.  Place your bet, and (hopefully) win some credits!</p>
+            <p id="p">Request a duel for a person.  Place your bet, and (hopefully) win some credits!</p>
          </li>
          <li>
             <h4>pickpocket <@User> <Amount></h4>
-            <p>Pickpocket a person.  Try not to get caught.  If you're the owner, you can catch the theif for them!</p>
+            <p id="p">Pickpocket a person.  Try not to get caught.  If you're the owner, you can catch the theif for them!</p>
          </li>
       </ul>
    </div>
@@ -45,16 +45,16 @@
       <ul style="list-style-type:none">
          <li>
             <h4>balance (@User)</h4>
-            <p>Shows the balance of a user.</p>
+            <p id="p">Shows the balance of a user.</p>
          </li>
          <li>
             <h4>pay <@User> <Amount> <Currency Type></h4>
-            <p>Pay a person a certain amount.
+            <p id="p">Pay a person a certain amount.
 Currency Type could be Credits or Cubes.</p>
          </li>
           <li>
             <h4>leaderboard</h4>
-            <p>Look at the top 10 richest users in the server!</p>
+            <p id="p">Look at the top 10 richest users in the server!</p>
          </li>
       </ul>
    </div>
@@ -64,39 +64,39 @@ Currency Type could be Credits or Cubes.</p>
       <ul style="list-style-type:none">
          <li>
             <h4>pvp (true/false)</h4>
-            <p>Displays if the server has pvp on or off.  If you are Bot Manager+, you can set pvp.</p>
+            <p id="p">Displays if the server has pvp on or off.  If you are Bot Manager+, you can set pvp.</p>
          </li>
          <li>
             <h4>commands</h4>
-            <p>Shows a list of the commands.</p>
+            <p id="p">Shows a list of the commands.</p>
          </li>
          <li>
             <h4>invite</h4>
-            <p>Invite the bot to your server.</p>
+            <p id="p">Invite the bot to your server.</p>
          </li>
          <li>
             <h4>setup</h4>
-            <p>Gives instructions on how to set the bot up if you are the owner.</p>
+            <p id="p">Gives instructions on how to set the bot up if you are the owner.</p>
          </li>
          <li>
             <h4>prefix (prefix)</h4>
-            <p>Check the prefix of the server.  If you are the owner, you may set the prefix.</p>
+            <p id="p">Check the prefix of the server.  If you are the owner, you may set the prefix.</p>
          </li>
          <li>
             <h4>info</h4>
-            <p>Get info on the shard. </p>
+            <p id="p">Get info on the shard. </p>
          </li>
          <li>
             <h4>setbotchannel</h4>
-            <p>Set the current channel to the channel where the bot will post updates and stuffs.</p>
+            <p id="p">Set the current channel to the channel where the bot will post updates and stuffs.</p>
          </li>
          <li>
             <h4>serverinfo</h4>
-            <p>Get info on the server!</p>
+            <p id="p">Get info on the server!</p>
          </li>
          <li>
             <h4>usererinfo (@User)</h4>
-            <p>Get info on a user!</p>
+            <p id="p">Get info on a user!</p>
          </li>
       </ul>
    </div>
@@ -106,31 +106,31 @@ Currency Type could be Credits or Cubes.</p>
       <ul style="list-style-type:none"> 
          <li>
             <h4>ping</h4>
-            <p>Shows the ping.</p>
+            <p id="p">Shows the ping.</p>
          </li>
          <li>
             <h4>pong</h4>
-            <p>Shows the pong.</p>
+            <p id="p">Shows the pong.</p>
          </li>
          <li>
             <h4>say <Message></h4>
-            <p>Make the bot say something.</p>
+            <p id="p">Make the bot say something.</p>
          </li>
          <li>
             <h4>8ball <Question></h4>
-            <p>Ask the magic 8ball for answers!</p>
+            <p id="p">Ask the magic 8ball for answers!</p>
          </li>
          <li>
             <h4>board <message></h4>
-            <p>Post a message on the board!</p>
+            <p id="p">Post a message on the board!</p>
          </li>
          <li>
             <h4>pick <Options></h4>
-            <p>Pick an item from a list! Items are separated by a ';'!</p>
+            <p id="p">Pick an item from a list! Items are separated by a ';'!</p>
          </li>
          <li>
             <h4>rate (MaxNumber)</h4>
-            <p>Gives a random rating out of 10 by default.</p>
+            <p id="p">Gives a random rating out of 10 by default.</p>
          </li>
       </ul>
    </div>
@@ -140,11 +140,11 @@ Currency Type could be Credits or Cubes.</p>
       <ul style="list-style-type:none"> 
           <li>
             <h4>purge <Messages></h4>
-            <p>Deletes a certain amount of messages as long as it is 100 or less.</p>
+            <p id="p">Deletes a certain amount of messages as long as it is 100 or less.</p>
          </li>
          <li>
             <h4>kick <@User> (reason)</h4>
-            <p>Kick a player by pinging them.</p>
+            <p id="p">Kick a player by pinging them.</p>
          </li>
       </ul>
    </div>
@@ -154,15 +154,15 @@ Currency Type could be Credits or Cubes.</p>
       <ul style="list-style-type:none"> 
          <li>
             <h4>ban <@User> (reason)</h4>
-            <p>Ban a player by pinging them.</p>
+            <p id="p">Ban a player by pinging them.</p>
          </li>
          <li>
             <h4>setbalance <@User> <Amount></h4>
-            <p>Set the balance of a user.</p>
+            <p id="p">Set the balance of a user.</p>
          </li>
          <li>
             <h4>silence <@User> (time) (reason)</h4>
-            <p>Silence a user. Time is in seconds!</p>
+            <p id="p">Silence a user. Time is in seconds!</p>
          </li>
       </ul>
    </div>
