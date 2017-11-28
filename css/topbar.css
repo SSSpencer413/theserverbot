@@ -4,7 +4,7 @@ h3   {color: white; font-family: arial;}
 h4   {color: white; font-family: arial;} 
 p    {color: #99aab5; font-family: arial;}
 body  {background-color: #2a2d32;}
-#navList {
+/*#navList {
     list-style-type: none;
     margin-top: -0.8%;
     margin-left: -.8%;
@@ -13,7 +13,13 @@ body  {background-color: #2a2d32;}
     overflow: hidden;
     background-color: #7289da;
     position: fixed;
+} */
+#TopBar {
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
 }
+
 #verli {
     float: left;
 }
