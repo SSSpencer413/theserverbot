@@ -24,6 +24,7 @@ body  {background-color: #2a2d32; margin-top: 10%;}
     color: white;
     text-align: center;
     text-decoration: none;
+    padding: 5px 15px;
     font-family: arial;
 }
 ::-webkit-scrollbar {
