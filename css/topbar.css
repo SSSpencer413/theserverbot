@@ -11,7 +11,7 @@ body  {background-color: #2a2d32; margin-top: 10%;}
 #TopBar {
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
-    width: 100.8%; /* Full width */
+    width: 100%; /* Full width */
     background-color: #7289da;
     overflow: hidden;
     margin-left: -.8%;
@@ -29,6 +29,11 @@ body  {background-color: #2a2d32; margin-top: 10%;}
     font-family: arial;
 }
 ::-webkit-scrollbar {
-    width: 0;
+    width: .8%;
 }
-
+::-webkit-scrollbar-track {
+    background: #2e3136; 
+}
+::-webkit-scrollbar-thumb {
+    background: #2a2d32; 
+}
