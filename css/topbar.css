@@ -26,6 +26,10 @@ body  {background-color: #2a2d32; margin-top: 10%;}
     text-decoration: none;
     padding: 5px 15px;
     font-family: arial;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
 }
 ::-webkit-scrollbar {
     width: .4%;
