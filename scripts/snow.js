@@ -42,7 +42,6 @@ function Snowy() {
       this.g.addColorStop(0, 'hsla(255,255%,255%,1)');
       this.g.addColorStop(1, 'hsla(255,255%,255%,0)');
       $.moveTo(this.x, this.y);
-      $.fillStyle = this.g;
       $.beginPath();
       $.arc(this.x, this.y, this.sz, 0, Math.PI * 2, true);
       $.fill();}
