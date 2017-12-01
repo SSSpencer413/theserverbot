@@ -22,6 +22,8 @@ function Snowy() {
   function go(){
     window.requestAnimationFrame(go);
       $.clearRect(0, 0, w, h);
+      $.fillStyle = 'hsla(242, 95%, 3%, 1)';
+      $.fill();
         for (var i = 0; i < arr.length; ++i) {
           f = arr[i];
           f.t += .05;
