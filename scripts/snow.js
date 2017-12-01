@@ -1,4 +1,5 @@
-var c = document.getElementById('canv');
+var c = document.getElementById('canv'), 
+    $ = c.getContext("2d");
 var w = c.width = window.innerWidth, 
     h = c.height = window.innerHeight;
 
