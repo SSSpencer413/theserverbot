@@ -1,0 +1,25 @@
+h1   {color: #35383D; font-family: arial;}
+h2   {color: #35383D; font-family: arial;}
+h3   {color: #35383D; font-family: arial;}
+h4   {color: #35383D; font-family: arial;}
+p    {color: #99aab5; font-family: sans-serif;}
+body  {background-color: white; margin-top: 10%;}
+
+
+::-webkit-scrollbar {
+    width: .4%;
+}
+::-webkit-scrollbar-track {
+    background: #2e3136;
+}
+::-webkit-scrollbar-thumb {
+    background: #99aab5;
+}
+::-webkit-scrollbar-corner {
+    background: #2e3136;
+}
+::-webkit-resizer {
+    width: .4%;
+}
+
+#embed {background-color: #f9f9f9; width: 50%; margin-left: 25%; border-left: 5px solid; border-radius: 5px; padding-bottom: 0.5%;}
