@@ -1,0 +1,48 @@
+h1   {color: white; font-family: arial;}
+h2   {color: white; font-family: arial;}
+h3   {color: white; font-family: arial;}
+h4   {color: white; font-family: arial;} 
+p    {color: #99aab5; font-family: arial;}
+body  {background-color: #2a2d32; margin-top: 10%;}
+#navList {
+    list-style-type: none;
+    overflow: hidden;
+} 
+#TopBar {
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100.3%; /* Full width */
+    background-color: #7289da;
+    overflow: hidden;
+    margin-left: -.8%;
+}
+
+#verli {
+    float: left;
+}
+#a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 15px;
+    font-family: arial;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+::-webkit-scrollbar {
+    width: .4%;
+}
+::-webkit-scrollbar-track {
+    background: #2e3136; 
+}
+::-webkit-scrollbar-thumb {
+    background: #99aab5; 
+}
+::-webkit-scrollbar-corner {
+    background: #2e3136; 
+}
+::-webkit-resizer {
+    width: .4%;
+}
